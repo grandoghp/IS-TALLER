@@ -125,3 +125,31 @@ tr:hover td {
     font-weight: 500;
     text-shadow: 1px 1px 2px #ffffff;
 }
+
+.slider {
+    width: 100%;
+    max-height: 450px; /* Ajusta aquí si quieres más o menos alto */
+    overflow: hidden;
+    margin: 30px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .slide-track {
+    display: flex;
+    animation: scrollSlider 18s linear infinite;
+  }
+  
+  .slide-track img {
+    width: 100vw; /* Cada imagen ocupa el 100% del ancho de la ventana */
+    height: 450px; 
+    object-fit: cover; /* Recorta sin deformar */
+    flex-shrink: 0;
+  }
+  
+  @keyframes scrollSlider {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-300%); } /* Cambia según cantidad de imágenes */
+  }
+  
+
