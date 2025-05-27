@@ -73,6 +73,6 @@ crud_IS/
 ![Captura de la aplicación](https://via.placeholder.com/800x400?text=Captura+de+la+Aplicación)
 
 ## Créditos
-**Autor**: Simón Pérez
-**Contacto**: simon.perez@universidad.edu.co
+**Autores**: Simón Rivera Múnera, Jean Pierr Suaza Novoa, José Alejandro Arrubla Ortega
+**Contacto**: srivera66@unillasallista.edu.co
 **Curso**: Ingeniería de Software
