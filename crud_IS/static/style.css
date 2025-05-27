@@ -1,0 +1,127 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #e8f5f0;
+    padding: 40px;
+    color: #2c5c4c;
+}
+
+img.banner, img.footer {
+    width: 100%;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    box-shadow: 12px 12px 24px #c4d0cb, -12px -12px 24px #ffffff;
+    transition: transform 0.3s ease;
+}
+
+img.banner:hover, img.footer:hover {
+    transform: translateY(-5px);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #3d8066;
+    text-shadow: 2px 2px 4px #ffffff;
+}
+
+#form-container, table {
+    background: #e8f5f0;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 12px 12px 24px #c4d0cb, -12px -12px 24px #ffffff;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+
+#form-container:hover, table:hover {
+    transform: translateY(-3px);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2c5c4c;
+    font-weight: 500;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 15px;
+    background: #e8f5f0;
+    box-shadow: inset 6px 6px 12px #c4d0cb, inset -6px -6px 12px #ffffff;
+    font-size: 14px;
+    color: #2c5c4c;
+    transition: all 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    box-shadow: inset 4px 4px 8px #c4d0cb, inset -4px -4px 8px #ffffff;
+}
+
+button {
+    padding: 12px 24px;
+    margin-right: 12px;
+    border: none;
+    border-radius: 15px;
+    background: #4a9677;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 6px 6px 12px #c4d0cb, -6px -6px 12px #ffffff;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #3d8066;
+    transform: translateY(-2px);
+}
+
+button:active {
+    box-shadow: inset 4px 4px 8px #327055, inset -4px -4px 8px #5ebc99;
+    transform: translateY(0);
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    color: #2c5c4c;
+    background: #e8f5f0;
+    position: relative;
+}
+
+th {
+    font-weight: 600;
+    color: #3d8066;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
+tr {
+    transition: all 0.3s ease;
+}
+
+tr:hover td {
+    background: #f0f9f5;
+    transform: scale(1.01);
+}
+
+#message {
+    margin-top: 20px;
+    color: #4a9677;
+    text-align: center;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px #ffffff;
+}
