@@ -20,7 +20,7 @@ El proyecto implementa una arquitectura de tres capas:
 
 1. Clonar el repositorio:
 ```bash
-git clone https://github.com/tu-usuario/IS-TALLER.git
+git clone https://github.com/grandoghp/IS-TALLER.git
 cd IS-TALLER
 ```
 
